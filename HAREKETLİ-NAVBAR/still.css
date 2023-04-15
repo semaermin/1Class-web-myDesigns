@@ -1,0 +1,110 @@
+body,html
+{
+	width: 100%;
+	height: 100%;
+
+}
+/* id tipine bir css gönderirisem her box in olduğu boxıyla çakışıcak.
+eğer class türüde göndeirirsem bu sorunu çoğu herde karşılaşıcam. bazı yerlerde class kullanacaz*/
+#banner
+{
+	width: 100%;
+	height: 20%;
+	float: left;
+	margin-bottom: 1%;
+	
+
+}
+/*
+.banner
+{
+	class şeklinde oluşturulabilir.
+}
+*/
+
+#menu
+{
+	width: 60%;
+	height: 7%;
+	
+	float: left;
+	margin-left: 23%;
+}
+
+img 
+{
+	width: 100%;
+	height: 100%;
+}
+
+#menukutum
+{
+	float: left;
+	width: 16%;
+	margin-left: 3%;
+	margin-top: 2%;
+	height: 50%;/*sebebi bulunduğu divin özellikleini alıcak*/
+	font-size: 1vw;/*browserlarda yazı buyutu değişmez vw ile*/
+	text-align: center;
+	padding-top: 1%; /* padding verirsem asıl boyuttan düşmem gerekir*/
+    font-family: Arial;/*yazılım stili*/
+    color:black;
+    font-weight: bold;/*yazının kalınılığı*/
+    background-color: green;
+    transition: background-color 1s, color 1s;
+
+}
+
+#menukutum:hover/*menu kutusna üstüne geldiğinde eylem yaptırmak*/
+{
+	background-color: black;
+	color: green;
+	font-weight: bolder;
+	font-size: 1.1vw;
+
+}
+#menukutum:active/*tıkladığında eylem yaptırmak*/
+{
+	background-color: red;
+	color: white;
+}
+
+#menukutum:hover #menuacma 
+{
+	display: block;
+}
+
+#icerik
+{
+	margin-top: 1%;
+	width: 100%;
+	border: 1px solid black;
+	float: left;
+	background-color: rgb(205, 22, 144);
+	height: 250px;
+
+}
+
+#icerikic
+{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+
+#menuacma:hover
+{
+	display: block;
+}
+
+#menuacma
+{
+	width: 9.5%;
+	height: 30%;
+	float: left;
+	position: absolute;
+	display: none;
+	margin-top: 0.5%;
+	background-color: green;
+}
+

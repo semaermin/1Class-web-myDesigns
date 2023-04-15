@@ -1,0 +1,207 @@
+html,body
+{
+	height: 150%;
+	width: 100%;
+}
+#geneldiv
+{
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto; 
+	background-color: #f8e08e;
+
+}
+#header
+{
+	width: 100%;
+	height: 9%;
+	text-align: center;
+	padding-top: 1%;
+	float: left;
+}
+#menugenel
+{
+	width: 80%;
+	height: 3%;
+	margin-left: 18%;
+	float: left;
+	font-family: Arial;
+}
+#menukutu
+{
+	width: 16.93%;
+	height: 74%;
+	background-color: #D73F19;
+	float: left;
+	margin-left: 2.5%;
+	padding-top: 1%;
+	text-align: center;
+}
+#indirim
+{
+	width: 80%;
+	height:30%;
+	float: left;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+#rafpizzalar
+{
+	width: 80%;
+	height: 25%;
+	float: left;
+	margin-left: 10%;
+	padding-top: 3%;
+}
+#resim1
+{
+	width: 23%;
+	background-color:  #D73F19;
+	text-align: center;
+	float: left;
+	margin-left: 5%;
+	font-family: Arial;
+	padding-bottom: 1%;
+}
+#resim2
+{
+	width: 23%;
+	background-color: #D73F19;
+	text-align: center;
+	float: left;
+	margin-left: 10%;
+	font-family: Arial;
+	padding-bottom: 1%;
+}
+#resim3
+{
+	width: 23%;
+	background-color:  #D73F19;
+	text-align: center;
+	float: left;
+	margin-left: 10%;
+	font-family: Arial;
+	padding-bottom: 1%;
+}
+#text
+{
+	width: 60%;
+	height: 60%;
+	float: left;
+	padding-top: 4%;
+	margin-left:2%;
+	font-family: Arial;
+
+}
+#helal
+{
+	width: 80%;
+	height: 7.5%;
+	margin-left: 10%;
+	float: left;
+}
+#helal1
+{
+	width: 8%;
+	height: 5%;
+	float: left;
+	margin-left: 15%;
+	padding-top: 2%;
+}
+#helal2
+{
+	width: 8%;
+	height: 5%;
+	float: left;
+	margin-left: 5%;
+	padding-top: 2%;
+}
+#menukutu:hover
+{
+	background-color: orange;
+	color: white;
+	font-weight: bolder;
+	font-size: 1.1vw;
+}
+#menukutu:active
+{
+	background-color: red;
+	color: white;
+}
+#textdeneme
+{
+	width: 80%;
+	height: 2%;
+    background-color: #D73F19;
+	float: left;
+	padding-top: 1%;
+	margin-left:10%;
+	margin-top: 1%;
+	font-family: Arial;
+}
+#cizgi
+{
+	margin-bottom: 1%;
+	width: 80%;
+	height: 3%;
+	background-color: red;
+}
+#cizgi1
+{
+	width: 80%;
+	height: 3%;
+	background-color:red;
+}
+#cizgi2
+{
+	width: 100%;
+	height: 1%;
+	background-color:red;
+
+}
+#resim1:hover
+{
+	background-color:#D73F19;
+	font-weight: bolder;
+	font-size: 1.1vw;
+	padding: 1%;
+	transition: padding 1s;
+}
+#resim2:hover
+{
+	background-color: #D73F19;
+	font-weight: bolder;
+	font-size: 1.1vw;
+	padding: 1%;
+	transition: padding 1s;
+}
+#resim3:hover
+{
+	background-color:#D73F19;
+	font-weight: bolder;
+	font-size: 1.1vw;
+	padding: 1%;
+	transition: padding 1s;
+}
+#menuic
+{
+	width: 13.5%;
+	height: 7%;
+	float: left;
+	position: absolute;
+	display: none;
+	margin-top: 0.5%;
+	background-color: #D73F19;
+	padding-top: 1%;
+}
+#menukutu:hover #menuic
+{
+	display: block;
+}
+#menuic:hover
+{
+	background-color:#D73F19;
+	font-weight: bolder;
+	font-size: 1.1vw;
+}

@@ -1,0 +1,164 @@
+body
+{
+/* background-color: aqua; */
+width: 99%;
+height: 100%;
+}
+.header
+{	width: 99.5%;
+	height: 10%;
+	/* background-color: #3f009d; */
+	border-radius: 1rem;
+
+}
+.header .logo img{
+	height: 50px;
+	border-radius: 0.5rem;
+}
+#search
+{
+	background:url();
+	width:500px;
+	float:right;
+	margin-top: 15px;
+	display:inline;
+}
+.left{
+	/* background-color: bisque; */
+	width: 60%;
+}
+.share{
+	/* border: 5px solid purple; */
+	margin: 3%;
+	width: 50%;
+	margin-left: 40%;
+	height: 28%;
+	border-radius: 1rem;
+	background-color: #efe4ff;
+}
+.share .box{
+	/* border: 3px solid green; */
+	width: 100%;
+	height: 200px;
+	padding: 2%;
+}
+
+.share .box .text{
+	text-align: center;
+	margin-top: 15%;
+}
+
+.share .box .photo img{
+	width: 360px;
+	height: auto;
+	display: block;
+	margin: 0% 8%;
+}
+.share .icon{
+	text-align: right;
+	margin-right: 10%;
+	margin-top: 3%;
+}
+.body{
+	display: flex;
+}
+.right{
+	/* background-color: rgb(85, 26, 127); */
+	/* border:1px solid black; */
+	width: 40%;
+}
+.right .topBox{
+	/* border: 2px solid black;
+	background-color: aliceblue; */
+	width: 50%;
+	height: 40%;
+	background-color: #efe4ff;
+	border-radius: 1rem;
+}
+.right .topBox .followBox{
+	width: 100%;
+	height: 15%;
+	/* background-color: aqua;
+	border: 1px solid black; */
+	display: flex;
+	border-radius: 0.5rem;
+}
+.right .topBox .followPhoto{
+	/* background-color: blue; */
+	width: 20%;
+	height: 100%;
+}
+.right .followBox .followPhoto img{
+	margin: 5%;
+	width: 80%;
+	border-radius: 0.5rem;
+}
+.right .followName{
+	margin:6%;
+}
+.right .followBtn{
+	margin: 6%;
+}
+.rightText{
+	text-align: center;
+}
+.middleBox{
+	/* background-color: bisque; */
+	width: 50%;
+	height: 60%;
+	background-color: #efe4ff;
+	border-radius: 1rem;
+}
+.rightBox{
+	width: 100%;
+	/* background-color: crimson; */
+	/* border: 5px solid black; */
+}
+.rightBox img{
+	width: 300px;
+	display: block;
+	margin: auto;
+}
+.followBodyBox{
+	/* background-color: blueviolet; */
+	display: flex;
+}
+.followBodyBox .followBodyPhoto{
+	/* background-color: blue; */
+	width: 20%;
+	height: 100%;
+}
+.followBodyBox img{
+	margin: 5%;
+	width: 80%;
+	border-radius: 0.5rem;
+}
+ .followBodyName{
+	margin:6%;
+}
+.followBodyBtn{
+	margin: 6%;
+}
+.rightIcon{
+	text-align: right;
+	margin-right: 10%;
+	margin: 5%;
+}
+.newPost{
+	background-color: #efe4ff;
+	width: 50%;
+	margin-left: 40%;
+	height: 10%;
+	border-radius: 1rem;
+	
+}
+.newPost .icons{
+	text-align: center;
+}
+.newPost i{
+	margin: 1%;
+	margin-top: 5%;
+}
+h3{
+	text-align: center;
+}

@@ -1,0 +1,90 @@
+html,body
+{
+	height: 150%;
+	width: 100%;
+}
+#geneldiv
+{
+	width: 50%;
+	height: 100%;
+	background-color: #963741;
+	margin-left: auto;
+	margin-right: auto; 
+}
+#header
+{
+	width: 100%;
+	height: 7%;
+	background-color: #465152;
+}
+#menugenel
+{
+	width: 100%;
+	height: 2%;
+	background-color: red;
+}
+#menukutu
+{
+	width: 11.4%;
+	height: 100%;
+	background-color: blue;
+	float: left;
+	margin-left: 1%;
+}
+
+#iceriksol
+{
+	width: 25%;
+	height: 60%;
+	background-color: #651256;
+	float: left;
+}
+
+#solkutu
+{
+	width: 100%;
+	height: 30%;
+	background-color: #852147;
+}
+#solkutubaslık
+{
+	width: 100%;
+	height: 10%;
+	background-color: green;
+	font-size: 1.5vw;
+	text-align: center;
+}
+
+#icerikorta
+{
+	width: 50%;
+	height: 60%;
+	background-color: red;
+	float: left;
+
+}
+
+#iceriksag
+{
+	width: 25%;
+	height: 60%;
+	background-color: #123456;
+	float: left;
+}
+
+#sagkutu
+{
+	width: 100%;
+	height: 30%;
+	background-color: #852147;
+}
+#sagkutubaslık
+{
+	width: 100%;
+	height: 10%;
+	background-color: black;
+	font-size: 1.5vw;
+	text-align: center;
+	font-family: Arial;
+}
+
